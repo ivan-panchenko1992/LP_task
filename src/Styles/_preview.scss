@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+  .preview{
+    &__heading {
+      font-size: 56px;
+      font-weight: 900;
+      line-height: 62px;
+      letter-spacing: -.04em;
+      margin-bottom: 6px;
+    }
+  
+    &__article{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .preview{
+    &__heading {
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 44px;
+      letter-spacing: -.04em;
+      margin-bottom: 6px;
+    }
+  
+    &__article{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

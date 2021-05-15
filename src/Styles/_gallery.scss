@@ -1,0 +1,31 @@
+@media screen and (max-width: 320px) {
+  .gallery{
+    &__photos{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .photos {
+    border-radius: 10px;
+    height: 67px;
+    width: 120px;
+    margin-right: 6px;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
+    &:last-child{
+      margin-right: 10px;
+    }
+    
+  }
+  // .photos__wide_center{
+  //   photos{
+  //     &:nth-child(odd) {
+  //       width: 80%;
+  //       position: relative;
+  //       left: 30px
+  //     }
+  //   }
+  // }
+}
+
